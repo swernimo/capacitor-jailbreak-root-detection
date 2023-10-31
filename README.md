@@ -1,11 +1,11 @@
-# @evehr/capacitor-jailbreak-root-detection
+# @swernimo/capacitor-jailbreak-root-detection
 
-Jailbreak Root detection plugin for capacitor.
+This is a Capacitor 5 fork of [@evehr's](https://github.com/evehr-vn/capacitor-jailbreak-root-detection) Jailbreak Root detection plugin.
 
 ## Install
 
 ```bash
-npm install @evehr/capacitor-jailbreak-root-detection
+npm install @swernimo/capacitor-jailbreak-root-detection
 npx cap sync
 ```
 
