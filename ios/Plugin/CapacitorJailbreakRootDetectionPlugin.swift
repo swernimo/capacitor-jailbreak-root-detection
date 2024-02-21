@@ -29,9 +29,6 @@ public class CapacitorJailbreakRootDetectionPlugin: CAPPlugin {
     }
     
     @objc func exitApp(_ call: CAPPluginCall) {
-        UIControl().sendAction(#selector(NSXPCConnection.suspend), to: UIApplication.shared, for: nil)
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-            exit(EXIT_SUCCESS)
-        }
+        exit(0)
     }
 }
