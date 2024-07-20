@@ -1,4 +1,4 @@
-# @swernimo/capacitor-jailbreak-root-detection
+# @meedika/capacitor-jailbreak-root-detection
 
 This is a Capacitor 5 fork of [@evehr's](https://github.com/evehr-vn/capacitor-jailbreak-root-detection) Jailbreak Root detection plugin.
 
